@@ -31,7 +31,7 @@ imagens dos imoveis, infelizmente não foi possivel devido a restrições na con
 Para conferir os endpoints acesse:
 
 ```bash
-http://localhost:5000/oportunity/
+http://localhost:5000/oportunities/
 http://localhost:5000/oportunity/[:id]
 ```
 
