@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css">
+    <title>Apê 11 / Detail</title>
+  </head>
+  <body>
+    <nav class="container-small">
+      <a href="/" id="brand" aria-label="Apê 11"></a>
+    </nav>
+    <header>
+      <div class="bg">
+        <picture>
+          <source media="(max-width: 799px)" srcset="/images/bg-header-details-mobile.png" />
+          <source media="(min-width: 600px)" srcset="/images/bg-header-details.png" />
+          <img src="/images/bg-header-details.png" alt="Chris standing up holding his daughter Elva" />
+        </picture>
+      </div>
+    </header>
+    <main>
+      <div class="container" id="details">
+
+        <article>
+          <div class="desktop">
+            <span class="cod"></span>
+            <h1 class="title"></h1>
+            <p class="address"></p>
+          </div>
+          <hr>
+          <ul class="features"></ul>
+          <div class="paragraph">
+            <h3>Apartamento à venda no <span class="district">Bairro</span></h3>
+            <p class="description"></p>
+          </div>
+          <div class="paragraph">
+            <h3>Benefícios do imóvel</h3>
+            <p class="benefits"></p>
+          </div>
+        </article>
+
+        <aside>
+          <div class="mobile">
+            <span class="cod"></span>
+            <h1 class="title"></h1>
+            <p class="address"></p>
+            <hr>
+          </div>
+          <div class="priceInfo">
+            <p>Preço do imóvel</p>
+            <h2 class="price">R$ 900.000</h2>
+            <p class="small">Atualizado em 23/03/2023</p>
+          </div>
+          <hr class="desktop">
+          <ul class="table">
+            <li>
+              <span class="key">Preço do m²</span>
+              <span class="value">R$ 7.438</span>
+            </li>
+            <li>
+              <span class="key">Condomínio</span>
+              <span class="value">R$ 2.253</span>
+            </li>
+            <li>
+              <span class="key">IPTU</span>
+              <span class="value">R$ 387</span>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+    <script type="module" src="/scripts.js"></script>
+  </body>
+</html>

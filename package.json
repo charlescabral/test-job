@@ -1,0 +1,17 @@
+{
+  "name": "simple-test",
+  "main": "index.js",
+  "scripts": {
+    "api": "node api/index.js",
+    "dev": "npm run api & rollup --config rollup.config.mjs --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.21.8",
+    "express": "^4.18.2",
+    "rollup": "^3.22.0",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}

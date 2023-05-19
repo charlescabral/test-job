@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Apê 11 / Teste Charles o/</title>
+  </head>
+  <body>
+    <nav class="container-small">
+      <a href="/" id="brand" aria-label="Apê 11"></a>
+    </nav>
+    <header>
+      <div class="bg">
+        <picture>
+          <source media="(max-width: 799px)" srcset="/images/bg-home-mobile.png" />
+          <source media="(min-width: 600px)" srcset="/images/bg-home.png" />
+          <img src="/images/bg-home.png" alt="Chris standing up holding his daughter Elva" />
+        </picture>
+      </div>
+    </header>
+    <main>
+      <div class="container-small" id="wrapperForm">
+        <h1>Selecione o imóvel desejado</h1>
+        <div id="form">
+          <select class="custom-select" id="oportunities">
+            <option value="-1">Selecione</option>
+          </select>
+          <button id="cta">
+            Ver imóvel
+          </button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/scripts.js"></script>
+  </body>
+</html>
