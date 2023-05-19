@@ -25,7 +25,8 @@ http://localhost:5000/
 ## Sobre a API
 
 Devido aos headers da api, não é possivel buscar os dados por problemas de CORS, no entanto,
-fiz um servidor muito simples com [express](https://expressjs.com/) apenas para fornecer os dados recriando os endpoints localmente.
+fiz um servidor muito simples com [express](https://expressjs.com/) apenas para fornecer os dados recriando os endpoints localmente. Já com as
+imagens dos imoveis, infelizmente não foi possivel devido a restrições na config do assets na amazon
 
 Para conferir os endpoints acesse:
 
